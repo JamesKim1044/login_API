@@ -6,10 +6,10 @@ from routers import users, login, metadata, projects, pages, voices
 
 import uvicorn
 
-app = FastAPI(title="MEDCON_Studio", 
-              description="논문 요약 및 영상제작 플랫폼", 
-              version="0.0.2", 
-              contact={"name" : "James Kim", "email" : "james@catbellcompany.com"})
+app = FastAPI(title="Login API", 
+              description="Login API", 
+              version="1.0.0", 
+              contact={"name" : "James Kim", "email" : "sjkim.skw.laa@gmail.com"})
 
 origins = [
     "*"
